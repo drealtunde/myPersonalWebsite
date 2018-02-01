@@ -1,0 +1,312 @@
+.nav-wrapper{
+    height: 60px;
+    padding: 3px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+
+.logo{
+  margin-left: 10px;
+  margin-top: 7px;
+  width: 50px;
+  
+
+}
+
+.title1, .title2{
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    display: inline;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    
+    
+}
+
+.title1{
+    
+    left: 240px;
+    text-align: center;
+    margin-top: 13px;
+    color: #3498db; 
+}
+
+.title2{
+    left: 305px;
+    text-align: center;
+    margin-top: 13px;
+    
+}
+
+.nav-wrapper a{
+    text-align: center;
+    float: left;
+    
+    
+}
+.navigation{
+    list-style-type: none;
+    margin-right: 100px;
+    padding-right: 100px;
+    
+    overflow: hidden;
+    background-color: white;
+    width:400px;
+    display: inline;
+   
+    
+    
+}
+
+.navigation li{
+    float: right;
+    
+}
+
+.navigation li a{
+    color: black;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1.0rem;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+    
+}
+.navigation li a:hover{
+    color: #3498db;
+    font-weight: bolder;
+    
+}
+.navigation li a:active{
+     border-bottom: 3px solid #3498db;
+}
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Source Sans Pro;
+}
+
+.top-image{
+    background-image: url("cover.png");
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.top-header1{
+    color: #bdc3c7;
+    font-size: 4.0rem;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.top-header2{
+    color: #bdc3c7;
+    letter-spacing: 0.2rem;
+    font-size: 4.0rem;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.top-body{
+    color: #3498db;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    padding-top: 60px;
+}
+
+.hire-me{
+    width: 200px;
+    display: inline-block;
+    border-radius: 4px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: large;
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid #3498db;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+    color: #bdc3c7;
+}
+
+.hire-me span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.hire-me:hover{
+    background-color: #3498db;
+}
+
+.hire-me span:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.hire-me:hover span{
+    padding-right: 25px;
+   
+}
+
+.hire-me:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn-wrapper{
+   text-align: center;
+}
+
+.about-me{
+    height: 650px;
+    overflow: hidden;
+    margin: 200px 100px 200px 100px;
+    
+   
+}
+
+.picture{
+    padding-right: 40px;
+    float: left;
+}
+
+.image{
+  height: 500px;
+}
+
+.download-cv,.submit{
+    width: 200px;
+    display: inline-block;
+    border:none;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 900;
+    font-size: 1.2rem;
+    padding: 15px;
+    background-color: #3498db;
+    cursor: pointer;
+    text-align: center;
+    color: white
+}
+
+.download-cv:hover{
+  background-color: black;
+}
+
+
+h3{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 300;
+   
+}
+
+p{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 900;
+    font-size: 2.0rem;
+}
+
+.text{
+   font-family: 'Arima Madurai', cursive;
+   font-weight: 300;
+}
+
+.bottom{
+  background-image: url("hire_image.jpg");
+  height: 650px;
+  width: 100%
+}
+
+.hire-text{
+  font-family: 'Arima Madurai', cursive;
+  font-weight: 900;
+  text-align: center;
+  font-size: 3.0rem;
+  color: white;
+  padding-top: 50px;
+  
+}
+
+.bottom div{
+  text-align: center;
+}
+
+.name,.email{
+  width: 300px;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 1.2rem;
+  margin: 30px;
+}
+
+.message{
+  width: 665px;
+  height: 250px;
+  box-sizing: border-box;
+  text-align: top left;
+  background-color: white;
+  color: black;
+  font-family:'Arima Madurai', cursive;
+  font-size: 1.2rem;
+  padding: 0px;
+  
+  
+}
+
+input:focus{
+  border: 2px solid #3498db;
+}
+
+.submit{
+  margin-top: 10px;
+}
+
+.contact-body{
+  margin-bottom:  80px;
+  margin-left: 100px;
+ 
+}
+
+
+
+.address-image{
+  display: block;
+  width: 50px;
+  float: left;
+  height: 70px;
+  margin-right: 10px;
+  
+  
+}
+
+
+
+
+
+
+
+
+
